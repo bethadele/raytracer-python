@@ -1,12 +1,10 @@
 import pytest
 from pydantic import BaseModel
 import math
-import utils
 
 #TODO:
 # - convert plus, minus, negate to overloaded operators
 # - figure out proper implementation of pydantic & test
-# - restrict operations like dot to vectors only?
 
 class TracerTuple():
     def __init__(self, x: float, y: float, z: float, w: float):
