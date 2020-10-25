@@ -1,1 +1,2 @@
-# raytracer-python
+# The Ray Tracer Challenge - Python implementation
+
